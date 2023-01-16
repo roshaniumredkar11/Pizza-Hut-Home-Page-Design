@@ -1,0 +1,221 @@
+.dottedUnderline {
+  border-bottom: 1px dotted;
+}
+
+
+.middle {
+  margin-top: 3rem;
+}
+
+.home-img {
+  margin-top: 1rem;
+}
+
+.box {
+  width: 500px;
+  margin-left: 28rem;
+  margin-top: -4rem;
+  color: #fff;
+  height: 256px;
+}
+
+.box-head {
+  display: flex;
+}
+
+.first img {
+  width: 15%;
+  margin-left: 2rem;
+  margin-right: 5px;
+}
+
+.first {
+  background-color: #fff;
+  border-radius: 8px 8px 8px 8px;
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+.first a {
+  color: red;
+  font-size: 21px;
+}
+
+.second img {
+  width: 15%;
+  margin-left: 2rem;
+  margin-right: 5px;
+}
+
+.second {
+  background-color: rgb(177, 177, 177);
+  border-radius: 8px 8px 8px 8px;
+  padding: 1rem 3.4rem 1rem 3rem;
+}
+
+.second a {
+  color: black;
+  font-size: 21px;
+}
+
+.del-text {
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.del-text h5 {
+  color: black;
+}
+
+.del-text p {
+  color: black;
+  font-size: 15px;
+}
+
+.location-box {
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.find-box {
+  display: flex;
+  margin: 1rem 1rem 1rem 2rem;
+}
+
+.find-box img {
+  height: 16px;
+  width: 16px;
+  margin: 5px 15px 0px 0px;
+}
+
+.find-box p {
+  color: #4a98e2;
+}
+
+.border-line {
+  border: 0 solid #e9ebee;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-top: 50px;
+
+}
+
+h2:before,
+h2::after {
+  content: "";
+  flex: 1 1;
+  border: 1px solid black;
+  border-style: double;
+  margin: auto;
+}
+
+
+/* Green button */
+
+.btn {
+  position: absolute;
+  border: none;
+  top: 155%;
+  left: 12.5%;
+  width: 76%;
+  background-color: #167a19;
+  color: white;
+  font-size: 16px;
+  padding: 14px 20px;
+  cursor: pointer;
+  text-align: center;
+
+
+}
+
+.btn:hover {
+  background-color: #045706;
+  color: white;
+}
+
+/* footer */
+.footer {
+
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin-top: -130px;
+}
+
+.foot_menu {
+  float: left;
+  width: 25%;
+}
+
+.foot_menu h6 {
+  color: white;
+  font-size: 18px;
+
+}
+
+.foot_menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
+.foot_menu ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+.first1 {
+  padding-top: 40px;
+}
+
+.middle1 {
+  padding-top: 200px;
+  margin-left: 400px;
+}
+
+.third1 {
+  display: flex;
+  float: left;
+  padding-top: 30px;
+
+}
+
+.btn112 {
+  margin-left: 20%;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.third1 p {
+  margin-top: 5px;
+  color: white;
+}
+
+.third1logo {
+  margin-left: 200px;
+}
+
+.third1logo h6 {
+  color: white;
+  margin-left: 50px;
+}
+
+.third1logo a {
+  padding: 0px 10px;
+
+}
+
+.fourth1 p {
+  text-align: center;
+  font-size: 12px;
+  color: lightgray;
+  margin-right: 200px;
+}
+
+.last1 {
+  padding-top: 7px;
+  margin-left: 550px;
+}
